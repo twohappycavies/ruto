@@ -1,0 +1,84 @@
+body {
+  text-align: center;
+  background-color: #000000;
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+#level-title2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: auto;
+  display: inline-block;
+  height: 171px;
+  width: 150px;
+  border-radius: 10%;
+}
+
+.btn-hex {
+  margin: -38px;
+  content: "\&#x25C6";
+  display: inline-block;
+  height: 300px;
+  width: 300px;
+}
+
+.btn-circle {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-image: url(img/red.svg);
+}
+
+.green {
+  background-image: url(img/green.svg);
+}
+
+.blue {
+  background-image: url(img/blue.svg);
+}
+
+.yellow {
+  background-image: url(img/yellow.svg);
+}
+
+.orange {
+  background-image: url(img/orange.svg);
+}
+
+.purple {
+  background-image: url(img/purple.svg);
+}
+
+.pressed {
+  box-shadow: 0 0 0px white;
+  background-color: grey;
+}
