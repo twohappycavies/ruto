@@ -101,3 +101,42 @@ body {
   box-shadow: 0 0 0px white;
   background-color: grey;
 }
+
+.mobiletap {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+
+
+    
+ #level-title2 {
+  font-family: 'Dosis', sans-serif;
+  font-size: 3rem;
+  margin:  5%;
+  color: #FEF2BF;
+}
+
+
+
+  .btn-circle {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+ .pressed {
+  box-shadow: 0 0 0px white;
+  background-color: grey;
+}
+ 
+   .desk{
+     display: none;
+   }
+   .mobtab{
+    display: block;
+    border: palegreen;
+   }
+}
