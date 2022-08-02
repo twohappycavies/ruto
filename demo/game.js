@@ -60,8 +60,22 @@ function nextSequence() {
   var randomChosenColour = buttonColours[randomNumber];
   gamePattern.push(randomChosenColour);
 
+console.log(gamePattern.length);
+var i = 0;
+
+timerFunction = function() {
   $("#" + randomChosenColour).fadeIn(100).fadeOut(100).fadeIn(100);
   playSound(randomChosenColour);
+i = i +=1;
+
+//repeats call
+if(i < gamePattern.length) {
+setTimeout(timerFunction, 500);
+};
+};
+
+//first call
+setTimeout(timerFunction, 500);
 }
 
 function animatePress(currentColor) {
