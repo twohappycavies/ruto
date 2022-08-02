@@ -15,6 +15,10 @@ $(document).keypress(function() {
   }
 });
 
+$("#level-title.mobiletap").on("click",function(){
+    startTheGame();
+});
+
 $(".btn-circle").click(function() {
 
   var userChosenColour = $(this).attr("id");
