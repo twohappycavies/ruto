@@ -7,12 +7,13 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-$(document).keypress(function() {
-  if (!started) {
-    $("#level-title2").text("Score " + level);
-    nextSequence();
-    started = true;
-  }
+$(document).on("keypress", function() {
+    // $("h1").html("Level 0");
+    if(!started){
+        $("#level-title").text("Level " + level);
+        nextSequence();
+        started = true;
+    }
 });
 
 $("#level-title.mobiletap").on("click",function(){
